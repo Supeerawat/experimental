@@ -1,0 +1,45 @@
+/* กำหนดค่าเริ่มต้นสำหรับทุกองค์ประกอบ */
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* ใช้ Flexbox สำหรับจัดวาง */
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    height: 100vh; /* กำหนดความสูงเต็มจอ */
+    margin: 0;
+    background-color: #f0f0f0; /* สีพื้นหลังเริ่มต้น */
+    transition: background-color 0.5s ease; /* เพิ่มการเปลี่ยนสีพื้นหลังแบบนุ่มนวล */
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* สไตล์สำหรับปุ่ม */
+#colorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* สีน้ำเงิน */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* เปลี่ยนสีปุ่มเมื่อชี้เมาส์ */
+#colorButton:hover {
+    background-color: #0056b3;
+}
